@@ -1,0 +1,20 @@
+{
+  "total_cost": 3.45,
+  "month": "October 2025",
+  "services": [
+    { "name": "Compute Engine", "cost": 0.8 },
+    { "name": "Cloud Storage", "cost": 0.5 },
+    { "name": "BigQuery", "cost": 0.7 },
+    { "name": "Cloud Functions", "cost": 0.45 }
+  ],
+  "monthly_costs": [
+    { "month": "July", "cost": 1.8 },
+    { "month": "August", "cost": 2.0 },
+    { "month": "September", "cost": 2.3 },
+    { "month": "October", "cost": 2.45 }
+  ],
+  "suggestions": [
+    "Low VM usage detected — consider stopping idle instance.",
+    "All Cloud Storage usage is within free tier."
+  ]
+}
