@@ -13,7 +13,7 @@ with open("mock_data.json", "r") as f:
 # Default route (for testing)
 @app.route('/')
 def home():
-    return "✅ Cloud Cost Backend is running!"
+    return " Cloud Cost Backend is running!"
 
 # API route: returns all mock data
 @app.route('/api/costs')
@@ -32,7 +32,7 @@ def get_suggestions():
             suggestions.append(f"⚠️ {s['name']} is high — review usage or switch to lower tier.")
 
     # Add a static example suggestion
-    suggestions.append("✅ All costs are within the free tier for testing.")
+    suggestions.append(" All costs are within the free tier for testing.")
     return jsonify({"suggestions": suggestions})
 
 # Run app

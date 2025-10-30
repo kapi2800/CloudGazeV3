@@ -8,7 +8,7 @@ function AboutPage() {
       <div style={{ padding: "2rem" }}>
         <h2 style={{ color: "#3B82F6" }}>About This Project</h2>
         <p style={{ color: "#374151", marginTop: "1rem" }}>
-          This project visualizes cloud service costs and provides simple rule-based optimization suggestions.
+          This project visualizes cloud service costs and provides simple optimization suggestions.
           It helps users understand where their cloud budget is going and how to save costs.
         </p>
         <h3 style={{ marginTop: "2rem", color: "#10B981" }}>Tech Stack</h3>

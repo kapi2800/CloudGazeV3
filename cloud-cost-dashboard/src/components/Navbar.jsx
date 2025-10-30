@@ -6,7 +6,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h1>☁️ Cloud Cost Dashboard</h1>
+      <h1>Cloud Cost Dashboard</h1>
       <div className="nav-links">
         <Link to="/dashboard">Dashboard</Link>
         <Link to="/about">About</Link>

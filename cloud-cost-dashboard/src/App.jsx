@@ -4,7 +4,7 @@ import LoginPage from "./pages/LoginPage";
 import DashboardPage from "./pages/DashboardPage";
 import AboutPage from "./pages/AboutPage";
 
-// 🌩️ Main App component
+// Main App component
 function App() {
   // Simple state to track if user is logged in
   const [isLoggedIn, setIsLoggedIn] = useState(false);
