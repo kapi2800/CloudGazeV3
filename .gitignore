@@ -1,0 +1,5 @@
+legacy-cloud-cost-dashboard.zip
+.env
+*.zip
+*.env
+./cloud-cost-backend/.env
